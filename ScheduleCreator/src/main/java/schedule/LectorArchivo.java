@@ -4,11 +4,13 @@
  */
 package schedule;
 
+import util.Util;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 
@@ -33,9 +35,11 @@ public class LectorArchivo {
     private void separarDatos(HashMap<String, List<Curso>> cursos, BufferedReader bf) throws IOException {
         String linea;
         while ((linea = bf.readLine()) != null){
-            String[] datos = linea.split(",");
-            if (!cursos.containsKey(datos[0])) cursos.put(datos[0], new ArrayList<>());
-            else cursos.get(datos[0]).add(crearCurso(datos));
+            String[] datos = linea.split(";");
+            if (!cursos.containsKey(datos[0])){ 
+                cursos.put(datos[0], new ArrayList<>());
+            }
+            cursos.get(datos[0]).add(crearCurso(datos));
         }
     }
     private Curso crearCurso(String[] datos) {

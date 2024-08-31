@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.Group?>
+<HBox xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.ScheduleController">
+    <HBox fx:id="hola"> 
+        <Button text="izq" onAction="#horarioIzq" styleClass="botonIzq"/>
+        <Button text="der" onAction="#horarioDer" styleClass="botonDer"/>
+    </HBox>
+    <HBox fx:id="principal">
+    </HBox>
+</HBox>

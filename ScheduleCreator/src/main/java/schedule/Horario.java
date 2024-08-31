@@ -21,6 +21,13 @@ public class Horario {
         return horaFin - horaInicio;
     }
     public boolean esCompatible(Horario h){
+        if (!this.dia.equals(h.dia)) return limiteHorario(h) && horasDiferentes(h);
+        return true;
+    }
+    private boolean horasDiferentes(Horario h){
+        return this.horaInicio != h.horaInicio && this.horaFin != h.horaFin;
+    }
+    private boolean limiteHorario(Horario h){
         return this.horaFin >= h.horaInicio || this.horaInicio <= h.horaFin;
     }
     public String getDia() {
