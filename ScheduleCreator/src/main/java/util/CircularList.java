@@ -181,6 +181,7 @@ public class CircularList<E> implements List<E> {
     
     public E setPointer(E element){
         pointer = this.primero;
+        if (pointer == null) return null;
         if (this.contains(element)){
             while (!pointer.contenido.equals(element)) pointer = pointer.sig;
         }
@@ -188,11 +189,13 @@ public class CircularList<E> implements List<E> {
     }
     
     public E nextPointer(){
+        if (pointer == null) return null;
         pointer = pointer.sig;
         return pointer.contenido;
     }
     
     public E previousPointer(){
+        if (pointer == null) return null;
         pointer = pointer.ant;
         return pointer.contenido;
     }

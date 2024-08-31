@@ -1,0 +1,38 @@
+.contenedorIzq{
+    -fx-pref-width: 200px;
+    -fx-alignment: center;
+    -fx-pref-height: 600px;
+    -fx-background-color: white;
+}
+.contendorBotones{
+    -fx-pref-width: 200px;
+    -fx-pref-height: 100px;
+    -fx-alignment: center;
+    -fx-spacing: 20px;
+    -fx-padding: 20px;
+}
+.botonIzq{
+    -fx-pref-width: 70px;
+    -fx-pref-height: 40px;
+}
+.botonDer{
+    -fx-pref-width: 70px;
+    -fx-pref-height: 40px;
+}
+.contenedorFiltro{
+    -fx-pref-width: 200px;
+    -fx-pref-height: 400px;
+    -fx-alignment: center;
+    -fx-padding: 50px;
+}
+.contenedorBotonF{
+    -fx-pref-width: 200px;
+    -fx-pref-height: 100px;
+    -fx-alignment: center;
+}
+.contenedorHorario{
+    -fx-pref-width: 900px;
+    -fx-pref-height: 600px;
+    -fx-background-image: url("/img/fondoHorario.png");
+    -fx-background-size: cover;
+}

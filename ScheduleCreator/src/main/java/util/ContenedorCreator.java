@@ -22,8 +22,8 @@ import schedule.Horario;
  * @author Pc
  */
 public class ContenedorCreator {
-    private final int layoutY = 50;
-    private final int layoutX = 0;
+    private final int layoutY = 100;
+    private final int layoutX = 150;
     List<Curso> horario;
     public ContenedorCreator(List<Curso> horario){
         this.horario = horario;
@@ -38,16 +38,17 @@ public class ContenedorCreator {
                 contenedores.add(Util.copiarVBox(plantilla));
             }
         }
+        contenedores.add(new VBox());
         return contenedores;
     }
     private int asignarLayoutX(Horario h){
         int layout = 0;
         switch (h.getDia()) {
-            case "Lunes" : layout = 200; break;
-            case "Martes" : layout = 350; break;
-            case "Miércoles" : layout = 500; break;
-            case "Jueves" : layout = 650; break;
-            case "Viernes" : layout = 800; break;
+            case "Lunes" : layout = 0; break;
+            case "Martes" : layout = 150; break;
+            case "Miércoles" : layout = 300; break;
+            case "Jueves" : layout = 450; break;
+            case "Viernes" : layout = 600; break;
             default : layout = 0; break;
         }
         return layout;

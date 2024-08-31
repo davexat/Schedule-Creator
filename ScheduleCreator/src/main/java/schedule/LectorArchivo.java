@@ -10,9 +10,10 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 /**
  *
@@ -32,9 +33,20 @@ public class LectorArchivo {
         }
         return cursos;
     }
+    public Set<String> getMaterias(){
+        Set<String> nombreMaterias = new HashSet<>();
+        try (BufferedReader bf = new BufferedReader(new FileReader(archivo))){
+            String linea;
+            while ((linea = bf.readLine()) != null) nombreMaterias.add(linea.split(";")[0]);
+        }catch (IOException ioe){
+            System.out.println(ioe.getMessage());
+        }
+        return nombreMaterias;
+    }
     private void separarDatos(HashMap<String, List<Curso>> cursos, BufferedReader bf) throws IOException {
         String linea;
         while ((linea = bf.readLine()) != null){
+            if (linea.contains("*")) continue;
             String[] datos = linea.split(";");
             if (!cursos.containsKey(datos[0])){ 
                 cursos.put(datos[0], new ArrayList<>());

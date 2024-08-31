@@ -15,12 +15,18 @@ import java.util.List;
 public class Combinator {
     private HashMap<String, List<Curso>> cursosPorMateria;
     private List<List<Curso>> combinaciones;
-    public Combinator(String nombreArchivo) {
-        this.cursosPorMateria = new LectorArchivo(nombreArchivo).leerArchivo();
+    public Combinator(LectorArchivo lector) {
+        this.cursosPorMateria = lector.leerArchivo();
         combinaciones = new ArrayList<>();
     }
-    public List<List<Curso>> generarCombinaciones(){
-        permutarElementos(new ArrayList<>(cursosPorMateria.values()), 0, new ArrayList<>());
+    public List<List<Curso>> generarCombinacionesConFiltro(List<String> materiasExcluidas) {
+        HashMap<String, List<Curso>> cursosFiltrados = new HashMap<>();
+        for (String materia : cursosPorMateria.keySet()) {
+            if (!materiasExcluidas.contains(materia)) {
+                cursosFiltrados.put(materia, cursosPorMateria.get(materia));
+            }
+        }
+        permutarElementos(new ArrayList<>(cursosFiltrados.values()), 0, new ArrayList<>());
         return combinaciones;
     }
     private void permutarElementos(List<List<Curso>> listasDeCursos, int index, List<Curso> combinacionActual) {

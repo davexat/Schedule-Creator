@@ -31,12 +31,12 @@ public class Util {
     }
     public static VBox copiarVBox(VBox original) {
         VBox copia = new VBox();
-        copia.setStyle("-fx-border-color: black; -fx-border-width: 1px;");
         copia.setLayoutX(original.getLayoutX());
         copia.setLayoutY(original.getLayoutY());
         copia.setPrefSize(original.getPrefWidth(), original.getPrefHeight());
         copia.setPadding(original.getPadding());
         copia.setBackground(original.getBackground());
+        copia.setStyle("-fx-alignment: center;");
         copiarLabels(original, copia);
         return copia;
     }
@@ -45,6 +45,7 @@ public class Util {
             if (child instanceof Label) {
                 Label originalLabel = (Label) child;
                 Label copiedLabel = new Label(originalLabel.getText());
+                copiedLabel.setStyle("-fx-font-size: 9pt; -fx-wrap-text: true;");
                 copiedLabel.setWrapText(originalLabel.isWrapText());
                 copia.getChildren().add(copiedLabel);
             }
