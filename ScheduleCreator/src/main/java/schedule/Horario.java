@@ -12,7 +12,7 @@ public class Horario {
     private String dia;
     private double horaInicio;
     private double horaFin;
-    public Horario(double horaInicio, double horaFin, String dia) {
+    public Horario(String dia, double horaInicio, double horaFin) {
         this.horaInicio = horaInicio;
         this.horaFin = horaFin;
         this.dia = dia;

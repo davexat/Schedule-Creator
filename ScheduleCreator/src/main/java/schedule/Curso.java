@@ -41,7 +41,7 @@ public class Curso {
     public boolean esCompatible(Curso c){
         for (Horario h1: this.horarios){
             for (Horario h2: c.horarios){
-                if (!h1.esCompatible(h2) && this.materia.equalsIgnoreCase(c.materia)) return false;
+                if (!this.materia.equalsIgnoreCase(c.materia) && !h1.esCompatible(h2)) return false;
             }
         }
         return true;

@@ -15,8 +15,8 @@ import java.util.List;
 public class Combinator {
     private HashMap<String, List<Curso>> cursosPorMateria;
     private List<List<Curso>> combinaciones;
-    public Combinator(HashMap<String, List<Curso>> cursosPorMateria) {
-        this.cursosPorMateria = cursosPorMateria;
+    public Combinator(String nombreArchivo) {
+        this.cursosPorMateria = new LectorArchivo(nombreArchivo).leerArchivo();
         combinaciones = new ArrayList<>();
     }
     public List<List<Curso>> generarCombinaciones(){
