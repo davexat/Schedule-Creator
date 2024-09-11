@@ -25,7 +25,7 @@ public class App extends Application {
     public void start(Stage stage) throws IOException {
         stage.setTitle("Schedule Combinator");
         stage.getIcons().add(new Image(getClass().getResourceAsStream("/img/icono.png")));
-        scene = new Scene(loadFXML("schedule"), 1100, 600);
+        scene = new Scene(loadFXML("schedule"), 1100, 800);
         stage.setScene(scene);
         stage.setResizable(false);
         stage.show();

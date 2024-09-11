@@ -1,7 +1,7 @@
 .contenedorIzq{
     -fx-pref-width: 200px;
     -fx-alignment: center;
-    -fx-pref-height: 600px;
+    -fx-pref-height: 800px;
     -fx-background-color: white;
 }
 .contendorBotones{
@@ -32,7 +32,7 @@
 }
 .contenedorHorario{
     -fx-pref-width: 900px;
-    -fx-pref-height: 600px;
+    -fx-pref-height: 800px;
     -fx-background-image: url("/img/fondoHorario.png");
     -fx-background-size: cover;
 }

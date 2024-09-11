@@ -1,28 +1,43 @@
-EstadÌstica;Roa Heydi;P1;Lunes;07:00 - 09:00;MiÈrcoles;07:00-09:00
-EstadÌstica;Loor Katherine;P2;Lunes;09:00-11:00;MiÈrcoles;09:00-11:00
-EstadÌstica;Pambabay;P4;Martes;15:00-17:00;Jueves;15:00-17:00
-EstadÌstica;Loor Katherine;P5;Martes;13:00-15:00;Jueves;13:00-15:00
-EstadÌstica;Sanchez Joffre;P6;Lunes;13:00-15:00;MiÈrcoles;13:00-15:00
-EstadÌstica;Sanchez Joffre;P7;Lunes;15:00-17:00;MiÈrcoles;15:00-17:00
-EstadÌstica;Ronquillo Carlos;P8;Martes;13:00-15:00;Jueves;13:00-15:00
-EstadÌstica;Ronquillo Carlos;P9;Martes;15:00-17:00;Jueves;15:00-17:00
-EstadÌstica;Sandoya Fernando;P10;Martes;09:00-11:00;Jueves;09:00-11:00
-EstadÌstica;Sanchez Joffre;P11;Lunes;09:00-11:00;MiÈrcoles;09:00-11:00
-RD;Espinal Albert;P1;MiÈrcoles;09:00-11:00;Viernes;09:00-10:00
-RD;CedeÒo Carlos;P2;Martes;09:00-11:00;Jueves;09:00-10:00
-RD P;Riquero Milena;P101;Lunes;13:00-15:00;;
-RD P;Riquero Milena;P103;Martes;13:00-15:00;;
-RD P;Espinal Albert;P104;MiÈrcoles;11:00-13:00;;
-RD P;Riquero Milena;P105;Martes;11:00-13:00;;
-RD P;Riquero Milena;P107;Lunes;15:00-17:00;;
-Comm;GarcÌa Jandry;P15;Lunes;11:00-13:00;MiÈrcoles;11:00-13:00
-Comm;GarcÌa Jandry;P14;Lunes;09:00-11:00;MiÈrcoles;09:00-11:00
-Comm;GarcÌa Jandry;P13;Martes;11:00-13:00;Jueves;11:00-13:00
-Comm;LeÛn MarÌa;P5;Lunes;13:00-15:00;MiÈrcoles;13:00-15:00
-Comm;LeÛn MarÌa;P6;Martes;13:00-15:00;Jueves;13:00-15:00
-Comm;Granda MarÌa;P7;Martes;11:00-13:00;Jueves;11:00-13:00
-Comm;Carranza Andrea;P8;Martes;09:00-11:00;Jueves;09:00-11:00
-PS;Lavid Erick;P1 VIRTUAL;Lunes;09:00-11:00;MiÈrcoles;09:00-11:00
-PS;Rivadeneira Rafael;P2;Martes;13:00-15:00;Jueves;13:00-15:00
-OC;Arias Alexandra;P2;Martes;09:00-10:30;Jueves;09:00-10:30
-OC;Veloz Freddy;VIRTUAL Lu-Mi;Viernes;16:00-17:00;;
+ÔªøEstad√≠stica;Roa Heydi;P1;Lunes;07:00 - 09:00;Mi√©rcoles;07:00-09:00;;
+Estad√≠stica;Loor Katherine;P2;Lunes;09:00-11:00;Mi√©rcoles;09:00-11:00;;
+Estad√≠stica*;Pambabay;P4;Martes;15:00-17:00;Jueves;15:00-17:00;;
+Estad√≠stica;Loor Katherine;P5;Martes;13:00-15:00;Jueves;13:00-15:00;;
+Estad√≠stica;Sanchez Joffre;P6;Lunes;13:00-15:00;Mi√©rcoles;13:00-15:00;;
+Estad√≠stica*;Sanchez Joffre;P7;Lunes;15:00-17:00;Mi√©rcoles;15:00-17:00;;
+Estad√≠stica;Ronquillo Carlos;P8;Martes;13:00-15:00;Jueves;13:00-15:00;;
+Estad√≠stica*;Ronquillo Carlos;P9;Martes;15:00-17:00;Jueves;15:00-17:00;;
+Estad√≠stica;Sandoya Fernando;P10;Martes;09:00-11:00;Jueves;09:00-11:00;;
+Estad√≠stica;Sanchez Joffre;P11;Lunes;09:00-11:00;Mi√©rcoles;09:00-11:00;;
+RD;Espinal Albert;P1;Mi√©rcoles;09:00-11:00;Viernes;09:00-10:00;;
+RD;Cede√±o Carlos;P2;Martes;09:00-11:00;Jueves;09:00-10:00;;
+RD P;Riquero Milena;P101;Lunes;13:00-15:00;;;;
+RD P;Riquero Milena;P103;Martes;13:00-15:00;;;;
+RD P;Espinal Albert;P104;Mi√©rcoles;11:00-13:00;;;;
+RD P;Riquero Milena;P105;Martes;11:00-13:00;;;;
+RD P;Riquero Milena;P107;Lunes;15:00-17:00;;;;
+Comm;Garc√≠a Jandry;P15;Lunes;11:00-13:00;Mi√©rcoles;11:00-13:00;;
+Comm;Garc√≠a Jandry;P14;Lunes;09:00-11:00;Mi√©rcoles;09:00-11:00;;
+Comm;Garc√≠a Jandry;P13;Martes;11:00-13:00;Jueves;11:00-13:00;;
+PS;Lavid Erick;P1 VIRTUAL;Lunes;09:00-11:00;Mi√©rcoles;09:00-11:00;;
+PS;Rivadeneira Rafael;P2;Martes;13:00-15:00;Jueves;13:00-15:00;;
+OC;Arias Alexandra;P2;Martes;09:00-10:30;Jueves;09:00-10:30;;
+OC;Veloz Freddy;P1 VIRTUAL;Lunes;19:00-20:30;Mi√©rcoles;19:00-20:30;;
+EDO;Celleri y Jonathan Solis;P1;Lunes;09:30-11:00;Mi√©rcoles;09:30-11:00;Jueves;09:00-11:00
+EDO;Celleri y Jonathan Solis;P2;Lunes;07:30 - 09:00;Mi√©rcoles;07:30 - 09:00;Jueves;07:00 - 09:00
+EDO;Rivadeneira y Tenesaca;P3;Martes;13:30-15:00;Jueves;13:30-15:00;Viernes;13:00-15:00
+EDO;Chong y Jonathan Solis;P4;Lunes;11:00-12:30;Mi√©rcoles;11:00-12:30;Jueves;11:00-13:00
+EDO;Rivadeneira y Tenesaca;P5;Martes;09:00-10:30;Jueves;09:00-10:30;Viernes;09:00-11:00
+EDO;Rivadeneira y Tenesaca;P6;Martes;11:00-12:30;Jueves;11:00-12:30;Viernes;11:00-13:00
+DIGITALES;Rios Sara o Prieto Le√≥n;P1 o P2;Mi√©rcoles;09:00-11:00;;;;
+DIGITALES;Rios Sara o Valarezo;P3 o P4;Mi√©rcoles;11:00-13:00;;;;
+DIGITALES P;Rios Sara o Prieto Le√≥n;P101 o P108;Martes;09:00-11:00;;;;
+DIGITALES P;Rios Sara o Sumba Nancy;P102 o P109;Martes;11:00-13:00;;;;
+DIGITALES P;Sumba Nancy;P103;Martes;15:00-17:00;;;;
+DIGITALES P;Sumba Nancy;P104;Jueves;15:00-17:00;;;;
+DIGITALES P;Rios Sara o Larrea;P105 o P111;Jueves;09:00-11:00;;;;
+DIGITALES P;Rios Sara;P106;Jueves;11:00-13:00;;;;
+DIGITALES P;Sumba Nancy;P107;Jueves;13:00-15:00;;;;
+DIGITALES P;Sumba Nancy;P110;Martes;13:00-15:00;;;;
+DIGITALES P;Sumba Nancy;P112;Viernes;11:00-13:00;;;;
+AA;Ana Tapia;P1 VIRTUAL;Martes;19:00-21:00;Jueves;19:00-20:00;;
+AA;Ana Tapia;P2 VIRTUAL;Mi√©rcoles;19:00-21:00;Jueves;20:00-21:00;;

@@ -25,10 +25,11 @@ public class ScheduleController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         agregarMaterias(App.lector.getMaterias());
+        /*
         for (List<Curso> horario: new Combinator(App.lector).generarCombinacionesConFiltro(new ArrayList<>())){
             horarios.add(new ContenedorCreator(horario).crearContenedores());
         }
-        colocarEnPane(horarios.setPointer(null));
+        colocarEnPane(horarios.setPointer(null));*/
     }
     @FXML
     private void horarioIzq(){

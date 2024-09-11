@@ -21,6 +21,5 @@
             <Button text="Filtrar" onAction="#filtrar" styleClass="botonEx"/>
         </HBox>
     </VBox>
-    <HBox fx:id="principal" styleClass="contenedorHorario">
-    </HBox>
+    <HBox fx:id="principal" styleClass="contenedorHorario"/>
 </HBox>
