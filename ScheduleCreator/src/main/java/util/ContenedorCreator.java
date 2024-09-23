@@ -63,7 +63,7 @@ public class ContenedorCreator {
         Label profesor = new Label(curso.getProfesor());
         profesor.setWrapText(true);
         c.getChildren().addAll(materia, profesor);
-        c.setPadding(new Insets(10, 5, 10, 5));
+        c.setPadding(new Insets(5));
         BackgroundFill relleno = new BackgroundFill(Util.generarColor(), CornerRadii.EMPTY, Insets.EMPTY);
         c.setBackground(new Background(relleno));
     }
